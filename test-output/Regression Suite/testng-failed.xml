@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression Suite]">
+  <listeners>
+    <listener class-name="listeners.Listener"/>
+  </listeners>
+  <test name="HomePageTest(failed)">
+    <classes>
+      <class name="Testrunner.Runner">
+        <methods>
+          <include name="logintest"/>
+          <include name="afterMethod"/>
+          <include name="endTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Testrunner.Runner -->
+    </classes>
+  </test> <!-- HomePageTest(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->

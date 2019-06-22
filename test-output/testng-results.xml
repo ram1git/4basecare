@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression Suite" duration-ms="27476" started-at="2019-06-20T07:23:58Z" finished-at="2019-06-20T07:24:26Z">
+    <groups>
+    </groups>
+    <test name="HomePageTest" duration-ms="27476" started-at="2019-06-20T07:23:58Z" finished-at="2019-06-20T07:24:26Z">
+      <class name="Testrunner.Runner">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Testrunner.Runner@57f23557]" name="beforeTest" is-config="true" duration-ms="10308" started-at="2019-06-20T12:53:58Z" finished-at="2019-06-20T12:54:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Testrunner.Runner@57f23557]" name="beforeMethod" is-config="true" duration-ms="13" started-at="2019-06-20T12:54:09Z" finished-at="2019-06-20T12:54:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Testrunner.Runner.logintest(java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:Testrunner.Runner@57f23557]" name="logintest" duration-ms="7241" started-at="2019-06-20T12:54:09Z" data-provider="dp" finished-at="2019-06-20T12:54:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[+919481938078]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cd@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Testrunner.Runner@57f23557]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-06-20T12:54:16Z" finished-at="2019-06-20T12:54:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logintest status=SUCCESS method=Runner.logintest(java.lang.String, java.lang.String)[pri:0, instance:Testrunner.Runner@57f23557] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Testrunner.Runner@57f23557]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-06-20T12:54:16Z" finished-at="2019-06-20T12:54:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Testrunner.Runner.logintest(java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:Testrunner.Runner@57f23557]" name="logintest" duration-ms="5673" started-at="2019-06-20T12:54:16Z" data-provider="dp" finished-at="2019-06-20T12:54:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[+919481938078]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cd@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Testrunner.Runner@57f23557]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-20T12:54:21Z" finished-at="2019-06-20T12:54:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logintest status=SUCCESS method=Runner.logintest(java.lang.String, java.lang.String)[pri:0, instance:Testrunner.Runner@57f23557] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Testrunner.Runner@57f23557]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-06-20T12:54:21Z" finished-at="2019-06-20T12:54:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Testrunner.Runner.logintest1(java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="logintest1(java.lang.String, java.lang.String)[pri:0, instance:Testrunner.Runner@57f23557]" name="logintest1" duration-ms="3503" started-at="2019-06-20T12:54:21Z" data-provider="dp1" finished-at="2019-06-20T12:54:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[+919481938079]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cd@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest1 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Testrunner.Runner@57f23557]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-06-20T12:54:25Z" finished-at="2019-06-20T12:54:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logintest1 status=SUCCESS method=Runner.logintest1(java.lang.String, java.lang.String)[pri:0, instance:Testrunner.Runner@57f23557] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:Testrunner.Runner@57f23557]" name="endTest" is-config="true" duration-ms="697" started-at="2019-06-20T12:54:25Z" finished-at="2019-06-20T12:54:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- Testrunner.Runner -->
+    </test> <!-- HomePageTest -->
+  </suite> <!-- Regression Suite -->
+</testng-results>
